@@ -15,7 +15,7 @@ Notes:
 How to install:
 1. Ensure you have the RageUI resource started before the menu.
 2. Download the forked version of [RageUI](https://github.com/bxrksggs/RageUI).
-3. Download my repo of the gun shop [here](https://github.com/naytoxp/esx_gunshop).
+3. Download my repo of the gun shop [here](https://github.com/Naytoxp/esx_gunshop).
 4. Copy esx_gunshop into your resources folder.
 5. Copy RageUI into your resources folder.
 6. Start your two resources & have fun!
