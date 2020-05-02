@@ -9,6 +9,7 @@ Features:
 * You can make it so only certain groups can buy weapons
 
 Notes:
+* It is compatible at **least** with ESX 1.1.0 and ESX 1.2.0, but you should update your ESX to the latest version, and if it appear that a new version of ESX is not compatible, the script will be fixed.
 * This is from the vRP Version : https://github.com/bxrksggs/vrp_gunshop.
 * You can make/edit where the Gunshops are located within the `cfg/config.lua` file.
 
