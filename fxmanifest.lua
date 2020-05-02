@@ -17,7 +17,6 @@ dependencies {
     "RageUI"
 }
 client_scripts {
-    '@es_extended/locale.lua',
     "@RageUI/src/RMenu.lua",
     "@RageUI/src/menu/RageUI.lua",
     "@RageUI/src/menu/Menu.lua",
@@ -50,7 +49,6 @@ client_scripts {
 }
 
 server_scripts{
-    '@es_extended/locale.lua',
     "cfg/config.lua",
     "server.lua"
 }

@@ -3,6 +3,13 @@ cfg.blipsenabled = true
 --cfg.perm = "player.phone" -- player.phone is default for everyone
 cfg.currency = "$"
 
+cfg.accounts = {
+    "bank",
+    -- If you want to allow black money just uncomment the next line
+    --"black_money",
+    "money",
+}
+
 -- This is very important. The gunshops must go in order!
 -- {x,y,z, heading}
 cfg.gunshops = {
@@ -35,12 +42,12 @@ cfg.guns = {
         {name = "Pistol", price = 1000, hash = "WEAPON_PISTOL"},
     },
     smgs = {
-        {name = "Micro SMG", price = 1000, hash = "WEAPON_SUBMACHINEGUN"},
+        {name = "Micro SMG", price = 1000, hash = "WEAPON_MICROSMG"},
         {name = "SMG", price = 1000, hash = "WEAPON_SMG"}
     },
     shotguns = {
         {name = "Pump Shotgun", price = 15000, hash = "WEAPON_PUMPSHOTGUN"},
-        {name = "Shotgun", price = 1000, hash = "WEAPON_SHOTGUN"},
+        {name = "Sawn Off Shotgun", price = 1000, hash = "WEAPON_SAWNOFFSHOTGUN"},
     },
     ars = {
         {name = "Assault Rifle", price = 1000, hash = "WEAPON_ASSAULTRIFLE"},

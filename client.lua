@@ -1,5 +1,7 @@
 blips = {}
 
+
+
 local function initiateBlip()
     print('test')
     if cfg.blipsenabled then
@@ -286,7 +288,13 @@ end)
 
 RegisterNetEvent("ESXGUNSHOPS:givewap")
 AddEventHandler("ESXGUNSHOPS:givewap", function(hash) 
-    GiveWeaponToPed(PlayerPedId(), hash, 250, false, false)
+    --if GetLabelText(GetHashKey(hash)) ~= "NULL" then
+        --print(GetLabelText(GetHashKey(hash)))
+        GiveWeaponToPed(PlayerPedId(), GetHashKey(hash), 250, false, false)
+    --else
+       -- print(GetLabelText(GetHashKey(hash)) .. "      2")
+        --TriggerServerEvent("ESXGUNSHOP:badWeapon", hash)
+    --end
 end)
 
 function isInArea(v) 
